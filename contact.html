@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Anusree's Website</title>
+    <title>Contact Anusree</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   
@@ -19,7 +19,7 @@
             })
             .catch(error => console.error('Error loading header:', error));
 
-        fetch('home.html')
+        fetch('contact_content.html')
             .then(response => response.text())
             .then(data => document.getElementById('content-placeholder').innerHTML = data);
 
@@ -30,9 +30,5 @@
             });
     </script>
 
-    
-
   </body>
-
-  
 </html>

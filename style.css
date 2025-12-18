@@ -1,0 +1,73 @@
+body {
+
+    background-color: #fdfaf6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Positions the entire header at the very top left */
+.top-nav {
+    padding: 15px 20px;
+    background-color: transparent; /* Or choose a color */
+}
+
+.nav-container {
+    display: flex;
+    align-items: center; /* Vertically aligns tulip and links */
+    gap: 15px;           /* Space between tulip and first link */
+}
+
+/* 1. Smaller Tulip Logo */
+.nav-logo {
+    height: 40px; 
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;           
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.nav-links a:hover {
+    color: #55acee;      /* Subtle color change on hover */
+}
+
+/* Centers everything in the block */
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formats the headshot into a square */
+.headshot {
+    width: 125px;         /* Adjust size as needed */
+    height: 125px;        /* Must match width for a square */
+    object-fit: cover;    /* Ensures image doesn't stretch */
+    margin-bottom: 20px;  
+}
+
+.centered-block h3 {
+    margin: 0;
+    font-family: sans-serif; 
+    color: #333;
+}
